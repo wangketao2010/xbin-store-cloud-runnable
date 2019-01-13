@@ -14,16 +14,16 @@ import redis.clients.jedis.JedisPool;
  */
 public class JedisClientSingle implements JedisClient {
 
-    @Autowired
-    JedisPoolWrapper jedisPoolWrapper;
 //    @Autowired
-//    private JedisPool jedisPool;
+//    JedisPoolWrapper jedisPoolWrapper;
+    @Autowired
+    private JedisPool jedisPool;
 
     @Value("${redis.password}")
     private String password;
 
     private Jedis getResource() {
-        JedisPool jedisPool = jedisPoolWrapper.getJedisPool();
+//        JedisPool jedisPool = jedisPoolWrapper.getJedisPool();
         Jedis resource = jedisPool.getResource();
         if (StringUtils.isBlank(password)) {
             return resource;
