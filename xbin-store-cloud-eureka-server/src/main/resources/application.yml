@@ -12,4 +12,4 @@ eureka:
     serviceUrl:
       defaultZone: ${eureka.client.service-url.defaultZone}
   instance:
-    hostname: ${hostname:192.168.100.222}
+    hostname: ${hostname:192.168.2.179}

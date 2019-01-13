@@ -14,6 +14,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -49,6 +51,10 @@ public class CartServiceImpl implements CartService {
     @Autowired
     private TbItemMapper itemMapper;
 
+    @RequestMapping("/index")
+    public @ResponseBody String hello(){
+        return "OK";
+    }
     @Override
     @ApiOperation("购物车添加商品")
     @ApiImplicitParams({

@@ -71,9 +71,9 @@
 			<version>2.9.0</version>
 		</dependency>
 		<dependency>
-			<groupId>cn.binux</groupId>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-redis</artifactId>
-			<version>0.0.1</version>
+			<version>1.4.7.RELEASE</version>
 		</dependency>
 	</dependencies>
 

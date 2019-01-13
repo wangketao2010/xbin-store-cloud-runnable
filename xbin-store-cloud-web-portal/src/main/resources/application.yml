@@ -37,14 +37,14 @@ redisKey:
 
 
 #系统登录页面
-#user_login_page: 'http://192.168.100.222:8101/login.html'
+#user_login_page: 'http://192.168.2.179:8101/login.html'
 user_login_page: '/login'
 # 密码错误
 password_error: '({"pwd":"\u8d26\u6237\u540d\u4e0e\u5bc6\u7801\u4e0d\u5339\u914d\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165\","_t":"_ntInoTX"})'
 # 用户名不存在
 user_not_exist: '({"pwd":"\u8d26\u6237\u540d\u4e0e\u5bc6\u7801\u4e0d\u5339\u914d\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165<br/>\u5982\u9700\u6d77\u5916\u624b\u673a\u767b\u5f55\u8bf7\u6dfb\u52a0 <a href=\\"javascript:void(0);" id="country_code_selector" class="flk13" style="color:blue;">\u56fd\u5bb6\u533a\u53f7</a>","_t":"_ntqtNMt","countryTips":true})'
 # 成功响应首页
-homepage_path: '({"success":"http://192.168.100.222:8101/"})'
+homepage_path: '({"success":"http://192.168.2.179:8101/"})'
 
 # 广告Cid
 big_ad_index: 1

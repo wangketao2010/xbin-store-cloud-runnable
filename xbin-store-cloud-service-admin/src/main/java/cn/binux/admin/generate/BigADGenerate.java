@@ -66,7 +66,7 @@ public class BigADGenerate {
                 }
             }
         }
-        String logdomain = "//192.168.100.222:8101/log?info=";
+        String logdomain = "//192.168.2.179:8101/log?info=";
         Map map = FastJsonConvert.convertJSONToObject(txtContent.toString(), Map.class);
 
         List data = (List) map.get("data");
@@ -98,7 +98,7 @@ public class BigADGenerate {
     }
 
     public static String  saveToFastDFS(String destUrl) {
-        String saveurl = "http://192.168.100.222/";
+        String saveurl = "http://192.168.2.179/";
         ByteArrayOutputStream baos = null;
         try {
             URL u = new URL(destUrl);

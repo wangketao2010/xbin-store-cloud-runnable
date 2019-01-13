@@ -211,7 +211,7 @@ public class CategoryGenerate {
 
     }
     public static String  saveToFastDFS(String destUrl) {
-        String saveurl = "http://192.168.100.222/";
+        String saveurl = "http://192.168.2.179/";
         ByteArrayOutputStream baos = null;
         try {
             URL u = new URL(destUrl);

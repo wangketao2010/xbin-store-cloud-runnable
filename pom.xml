@@ -29,6 +29,7 @@
         <module>xbin-store-cloud-service-user</module>
         <module>xbin-store-cloud-service-notify</module>
         <module>xbin-store-cloud-web-portal</module>
+        <module>xbin-store-cloud-zipkin</module>
         <!--
         <module>xbin-store-cloud-web-product</module>
         <module>xbin-store-cloud-web-cart</module>
@@ -46,14 +47,9 @@
 
     <repositories>
         <repository>
-            <id>nexus</id>
-            <name>Aliyun Nexus repository</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>local</id>
-            <name>Nexus repository</name>
-            <url>http://localhost:8077/nexus/content/groups/public/</url>
+            <id>nexus-releases</id>
+            <name>nexus-releases</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
     </repositories>
 

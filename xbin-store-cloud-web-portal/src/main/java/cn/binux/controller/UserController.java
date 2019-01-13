@@ -146,7 +146,7 @@ public class UserController {
      * @param mobile 电话号码
      * @return
      */
-    //http://192.168.100.222:8101/notifyuser/mobileCode?state=&mobile=%2B008615669970074&_=1486641954248
+    //http://192.168.2.179:8101/notifyuser/mobileCode?state=&mobile=%2B008615669970074&_=1486641954248
     @RequestMapping("/notifyuser/mobileCode")
     public @ResponseBody String mobileCode(String mobile) {
         return notifyUserService.mobileNotify(mobile);
