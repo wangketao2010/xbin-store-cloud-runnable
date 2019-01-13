@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xbin-store-cloud-service-cart
+    name: xbin-store-cloud-service-admin
   zipkin:
     base-url: ${spring.zipkin.base-url}
   sleuth:
